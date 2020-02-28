@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../BuildControl/BuildControl.module.css';
 
 
-const buildcontrol = (props) = (
+const buildcontrol = (props) => (
     <div className={styles.buildcontrol}>
         <div className={styles.label}>{props.label}</div>
         <button className={styles.button}>Add</button>
@@ -10,8 +10,5 @@ const buildcontrol = (props) = (
     </div>
 
 );
-
-
-
 
 export default buildcontrol;
