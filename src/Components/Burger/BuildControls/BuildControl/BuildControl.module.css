@@ -1,0 +1,26 @@
+.buildControl
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.buildControl button{
+
+    display: block;
+    font:inherit;
+    margin: 0 5px;
+    padding: 5px;
+    width: 80px;
+    border:  1px solid #aa6817;
+    cursor: pointer;
+    outline: none;
+}
+
+.label
+{
+    font-weight: bold;
+    width: 80px;
+    font-size: 11px;
+}
