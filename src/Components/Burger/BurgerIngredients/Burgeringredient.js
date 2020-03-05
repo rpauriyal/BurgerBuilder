@@ -7,7 +7,6 @@ class Burgeringredient extends Component {
     render() { 
 
         let ingredient = null;
-
         switch (this.props.type){
 
             case ('bottom-bread'):
