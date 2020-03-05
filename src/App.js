@@ -7,7 +7,6 @@ import Checkout from './Containers/Checkout/Checkout';
 class App extends Component {
   render() {
     return (
-      
       <div>
         <Layout>
           <Switch>
