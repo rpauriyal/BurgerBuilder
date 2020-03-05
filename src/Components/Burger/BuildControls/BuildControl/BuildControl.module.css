@@ -6,21 +6,19 @@
     text-align: center;
 }
 
-.buildControl button{
+.button{
 
-    display: block;
-    font:inherit;
-    margin: 0 5px;
-    padding: 5px;
-    width: 80px;
-    border:  1px solid #aa6817;
-    cursor: pointer;
+    background-color:lightgreen;
+    border: 1px solid white;
+     padding: 8px; 
     outline: none;
+    margin: 5px;
+    cursor: pointer;
 }
 
 .label
 {
     font-weight: bold;
-    width: 80px;
-    font-size: 11px;
+    /* width: 80px; */
+    font-size: 22px;
 }

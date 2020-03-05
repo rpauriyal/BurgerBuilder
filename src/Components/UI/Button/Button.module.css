@@ -1,0 +1,28 @@
+.button
+{
+    background-color: transparent;
+    /* color: white; */
+    color: black; 
+       padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    opacity: 0.8;
+}
+
+.button:hover
+{
+    opacity: 1;
+}
+
+.success
+{
+    background-color: green;
+
+}
+.danger
+{
+    background-color: red;
+}
